@@ -10,7 +10,12 @@
 
 <%= link_to "Home",root_path %>
 <%= link_to "About",about_path %>
+
+<div class "container">
+<%= render 'layouts/header' %>
+
 <%= yield %>
 
+</div>
 </body>
 </html>
